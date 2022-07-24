@@ -8,6 +8,6 @@ email = \"21f1004734@student.onlinedegree.iitm.ac.in\"\n\
 echo "\
 [server]\n\
 headless = true\n\
-enableCORS = false\n\
+enableCORS=false\n\
 port = $PORT\n\
 " > ~/.streamlit/config.toml
