@@ -7,7 +7,7 @@ This app tells if the number is Odd or Even
 #Get Input
 
 st.header('User Input Parameters')
-number = float(st.number_input("GIVEN_NUMBER"))
+number = st.number_input("GIVEN_NUMBER")
 
 if number % 2==0:
     st.subheader('Number is Even')
